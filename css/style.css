@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.content {
+    position: absolute;
+    padding: 20px;
+    color: rgb(243, 248, 252);
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#login-form input:first-child {
+    margin-bottom: 20px;
+    padding: 4px;
+    border: none;
+    font-size: 13px;
+}
+
+#login-form input:last-child {
+    background-color: rgb(255, 0, 106);
+    color: aliceblue;
+    margin-bottom: 20px;
+    padding: 4px;
+    border: none;
+    font-size: 13px;
+}
+
+#greeting{
+    width: 186px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: rgb(255, 0, 106);
+    padding: 4px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+#todo-form input {
+    width: 186px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-size: 13px;
+    color: rgb(255, 0, 106);
+}
+
+#todo-list {
+    padding: 4px;
+    color: rgb(255, 255, 255);
+}
+
+#todo-list li {
+    list-style: none;
+    padding: 2px;
+}
+
+#todo-list li button {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(255, 0, 106);
+    color: white;
+    border: none;
+    margin-left: 4px;
+    text-align: center center;
+    font-size: 10px;
+}
+
+
+#quote {
+    position: absolute;
+    color: aliceblue;
+    bottom: 20px;
+    left: 20px;
+}
+
+#quote span:first-child {
+    display: block;
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 8px;
+}
+
+#weather {
+    position: absolute;
+    color: aliceblue;
+    right: 20px;
+    top: 20px;
+
+
+}
+
+#weather span:first-child {
+    display: block;
+    font-size: 14px;
+}
